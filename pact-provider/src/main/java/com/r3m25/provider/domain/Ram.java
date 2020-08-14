@@ -9,12 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Customer {
+public class Ram {
 
-    private String name;
-    private String lastName;
-    private Integer age;
-    private String email;
-    private Integer address;
-    private Integer phone;
+    private Integer memory;
+    private Integer capacity;
 }
